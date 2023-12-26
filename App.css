@@ -1,0 +1,90 @@
+.App{
+    background-color: rgb(10, 8, 16);
+    width: 350px;
+    color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+
+    display: flex;
+    flex-direction: column;
+}
+.personal-photo{
+    width: 350px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.name, .title, .email, .buttons{
+    margin: 2px
+}
+
+.name{
+    margin-top: 20px
+}
+.title{
+    color: blanchedalmond;
+    font-size: 15px;
+}
+.email{
+    margin-bottom: 20px;
+}
+.buttons{
+    display: flex;
+}
+
+.buttons > *{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    width: 140px;
+    height: 40px;
+    justify-content: center;
+    margin: 0 10px; 
+    font-size: 15px;
+    border-radius: 10px;
+}
+.button-email:hover{
+    background-color: white;
+}
+
+#icon-1, #icon-2{
+    margin: 0 5px;
+}
+
+.button-linkedin{
+    background-color: #539dde;
+    color: white;
+}
+.button-linkedin:hover{
+    background-color: #90bee6;
+}
+
+.about, .interest{
+    margin:0 25px;
+}
+.about h2, .interest h2{
+    margin-bottom: 0;
+}
+.about p, .interest p{
+    margin-top: 10px;
+}
+.footer{
+    margin: 30px;
+    
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer *{
+    cursor: pointer;
+    font-size:200%;
+}

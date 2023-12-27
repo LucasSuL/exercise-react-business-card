@@ -1,6 +1,8 @@
-### A simple static project for React.js using Parcel.
+### A simple static project for React.js using [Parcel.js](https://parceljs.org/).
 
 ### Run by `npm start`.
+
+---
 
 ### Preview:
 

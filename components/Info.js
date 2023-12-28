@@ -10,12 +10,12 @@ function Info() {
             <h3 className="title">Full-Stack Developer</h3>
             <small className="email">lijie.su93@gmail.com</small>
             <div className="buttons">
-                <button className="button-email">
-                    <i class="fas fa-envelope" id='icon-1'></i>
+                <button className="button-email" href = "">
+                    <i className="fas fa-envelope" id='icon-1'></i>
                     <p>Email</p>
                 </button>
                 <button className="button-linkedin">
-                    <i class="fab fa-linkedin" id='icon-2'></i>
+                    <i className="fab fa-linkedin" id='icon-2'></i>
                     <p>LinkedIn</p>
                 </button>
             </div>

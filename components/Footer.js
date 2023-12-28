@@ -3,10 +3,22 @@ import React from "react"
 function Footer() {
     return (
         <div className="footer">
-            <i class="fab fa-twitter"></i>
-            <i class="fab fa-facebook"></i>
-            <i class="fab fa-instagram"></i>
-            <i class="fab fa-github"></i>
+            <a href="https://twitter.com/home" target="_blank" >
+                <i className="fab fa-twitter" alt="twitter Logo"></i>
+            </a>
+
+            <a href="https://www.facebook.com/" target="_blank" >
+                <i className="fab fa-facebook" alt="facebook Logo"></i>
+            </a>
+
+            <a href="https://www.instagram.com/" target="_blank" >
+                <i className="fab fa-instagram" alt="instagram Logo"></i>
+            </a>
+
+            <a href="https://github.com/" target="_blank" >
+                <i className="fab fa-github" alt="github Logo"></i>
+            </a>
+
         </div>
     )
 }
